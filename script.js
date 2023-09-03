@@ -125,3 +125,8 @@ function resistorCalc() {
   }
   document.getElementById("result").textContent=result;
 }
+//footer
+const date=new Date();
+const year=date.getFullYear();
+var footer=document.querySelector("footer").textContent;
+document.querySelector("footer").innerHTML="©"+year+footer;
